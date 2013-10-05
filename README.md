@@ -1,4 +1,4 @@
-Gossip
+Gossip and Push-Sum
 ======
 
 Gossip and Push-Sum algorithm in Scala
@@ -19,8 +19,7 @@ ues. Upon receive, each actor selects a random neighboor and sends it a
 message.
 
 Topologies The actual network topology plays a critical role in the dissemi-
-nation speed of Gossip protocols. As part of this project you have to experiment
-with various topologies. The topology determines who is considered a neighboor
+nation speed of Gossip protocols. The topology determines who is considered a neighboor
 in the above algorithms.
  Full Network Every actor is a neighboor of all other actors. That is,
 every actor can talk directly to any other actor.
